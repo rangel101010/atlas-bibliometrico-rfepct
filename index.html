@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Atlas Bibliométrico das unidades agrícolas da RFEPCT">
+  <title>Atlas Bibliométrico RFEPCT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav wrap" aria-label="Navegação principal">
+      <a class="brand" href="#inicio"><span class="brand-mark">A</span><span>ATLAS RFEPCT</span></a>
+      <div class="nav-links"><a href="#visao-geral">Visão geral</a><a href="#campi">Campi</a><a href="#publicacoes">Publicações</a><a href="#metodo">Método</a></div>
+    </nav>
+    <div class="hero-grid wrap" id="inicio">
+      <div>
+        <p class="eyebrow">AVALIAÇÃO TEMÁTICA • SETEC/MEC</p>
+        <h1>ATLAS<br><span>BIBLIOMÉTRICO</span></h1>
+        <p class="lead">Produção científica, alcance e colaboração das unidades agrícolas selecionadas da Rede Federal.</p>
+        <a class="button" href="#visao-geral">EXPLORAR INDICADORES <span>↓</span></a>
+      </div>
+      <div class="network" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    </div>
+    <div class="wave"></div>
+  </header>
+
+  <main>
+    <section class="section wrap" id="visao-geral">
+      <div class="section-heading"><div><p class="eyebrow dark">PAINEL ATUALIZÁVEL</p><h2>VISÃO GERAL</h2></div><p id="updatedAt" class="update">Aguardando primeira sincronização com a OpenAlex</p></div>
+      <div class="filters" aria-label="Filtros do painel">
+        <label>Perfil<select id="profileFilter"><option value="all">Todos os perfis</option><option value="Alto">Alto</option><option value="Intermediário">Intermediário</option><option value="Baixo">Baixo</option></select></label>
+        <label>Campus<select id="campusFilter"><option value="all">Todos os campi</option></select></label>
+        <label>Ano<select id="yearFilter"><option value="all">Todos os anos</option></select></label>
+        <label>Busca<input id="searchFilter" type="search" placeholder="Título, autor ou periódico"></label>
+      </div>
+      <div class="metrics">
+        <article><span>PUBLICAÇÕES</span><strong id="metricWorks">—</strong><small>registros confirmados</small></article>
+        <article><span>CITAÇÕES</span><strong id="metricCitations">—</strong><small>recebidas na OpenAlex</small></article>
+        <article><span>ACESSO ABERTO</span><strong id="metricOA">—</strong><small>dos trabalhos</small></article>
+        <article><span>COLABORAÇÃO</span><strong id="metricIntl">—</strong><small>internacional</small></article>
+      </div>
+      <div class="chart-card"><div class="card-title"><h3>PUBLICAÇÕES POR ANO</h3><span>2021–2025</span></div><div id="yearChart" class="bars" role="img" aria-label="Gráfico de publicações por ano"></div></div>
+    </section>
+
+    <section class="section tint" id="campi"><div class="wrap">
+      <div class="section-heading"><div><p class="eyebrow dark">AMOSTRA DE APROFUNDAMENTO</p><h2>15 CAMPI</h2></div><p>Selecione um cartão para filtrar o painel.</p></div>
+      <div id="campusGrid" class="campus-grid"></div>
+    </div></section>
+
+    <section class="section wrap" id="publicacoes">
+      <div class="section-heading"><div><p class="eyebrow dark">BASE AUDITÁVEL</p><h2>PUBLICAÇÕES</h2></div><p id="resultCount">0 registros</p></div>
+      <div class="table-wrap"><table><thead><tr><th>Ano</th><th>Publicação</th><th>Campus</th><th>Citações</th><th>Situação</th></tr></thead><tbody id="worksTable"><tr><td colspan="5" class="empty">Os dados aparecerão após a primeira atualização automática.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="section method" id="metodo"><div class="wrap method-grid"><div><p class="eyebrow">TRANSPARÊNCIA METODOLÓGICA</p><h2>COMO O ATLAS É ATUALIZADO</h2></div><div class="steps"><article><b>01</b><h3>Consulta</h3><p>A rotina consulta mensalmente a API da OpenAlex.</p></article><article><b>02</b><h3>Reconhecimento</h3><p>Nomes institucionais e variantes de afiliação identificam cada campus.</p></article><article><b>03</b><h3>Validação</h3><p>DOI e OpenAlex ID removem duplicidades; casos ambíguos são separados.</p></article><article><b>04</b><h3>Publicação</h3><p>Os dados validados atualizam o GitHub Pages automaticamente.</p></article></div></div></section>
+  </main>
+  <footer><div class="wrap"><strong>ATLAS BIBLIOMÉTRICO RFEPCT</strong><span>Dados: OpenAlex • Recorte inicial: 2021–2025</span></div></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

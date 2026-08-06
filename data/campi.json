@@ -1,0 +1,17 @@
+[
+ {"id":"inconfidentes","name":"IFSULDEMINAS — Inconfidentes","profile":"Alto","aliases":["IFSULDEMINAS Campus Inconfidentes","Instituto Federal do Sul de Minas Gerais Campus Inconfidentes","Instituto Federal de Educação Ciência e Tecnologia do Sul de Minas Gerais Inconfidentes"]},
+ {"id":"machado","name":"IFSULDEMINAS — Machado","profile":"Alto","aliases":["IFSULDEMINAS Campus Machado","Instituto Federal do Sul de Minas Gerais Campus Machado"]},
+ {"id":"muzambinho","name":"IFSULDEMINAS — Muzambinho","profile":"Alto","aliases":["IFSULDEMINAS Campus Muzambinho","Instituto Federal do Sul de Minas Gerais Campus Muzambinho"]},
+ {"id":"maracana","name":"IFMA — São Luís Maracanã","profile":"Alto","aliases":["IFMA Campus São Luís Maracanã","Instituto Federal do Maranhão Campus São Luís Maracanã","IFMA Maracanã"]},
+ {"id":"bento","name":"IFRS — Bento Gonçalves","profile":"Alto","aliases":["IFRS Campus Bento Gonçalves","Instituto Federal do Rio Grande do Sul Campus Bento Gonçalves"]},
+ {"id":"salinas","name":"IFNMG — Salinas","profile":"Intermediário","aliases":["IFNMG Campus Salinas","Instituto Federal do Norte de Minas Gerais Campus Salinas"]},
+ {"id":"colorado","name":"IFRO — Colorado do Oeste","profile":"Intermediário","aliases":["IFRO Campus Colorado do Oeste","Instituto Federal de Rondônia Campus Colorado do Oeste"]},
+ {"id":"posse","name":"IF Goiano — Posse","profile":"Intermediário","aliases":["IF Goiano Campus Posse","Instituto Federal Goiano Campus Posse"]},
+ {"id":"urutai","name":"IF Goiano — Urutaí","profile":"Intermediário","aliases":["IF Goiano Campus Urutaí","Instituto Federal Goiano Campus Urutaí"]},
+ {"id":"bage","name":"IFSul — Bagé","profile":"Intermediário","aliases":["IFSul Campus Bagé","Instituto Federal Sul-rio-grandense Campus Bagé"]},
+ {"id":"jaguari","name":"IFFar — Jaguari","profile":"Baixo","aliases":["IFFar Campus Jaguari","Instituto Federal Farroupilha Campus Jaguari"]},
+ {"id":"apodi","name":"IFRN — Apodi","profile":"Baixo","aliases":["IFRN Campus Apodi","Instituto Federal do Rio Grande do Norte Campus Apodi"]},
+ {"id":"cruzeiro","name":"IFAC — Cruzeiro do Sul","profile":"Baixo","aliases":["IFAC Campus Cruzeiro do Sul","Instituto Federal do Acre Campus Cruzeiro do Sul"]},
+ {"id":"caceres","name":"IFMT — Cáceres","profile":"Baixo","aliases":["IFMT Campus Cáceres","Instituto Federal de Mato Grosso Campus Cáceres","IFMT Cáceres Professor Olegário Baldo"]},
+ {"id":"teixeira","name":"IF Baiano — Teixeira de Freitas","profile":"Baixo","aliases":["IF Baiano Campus Teixeira de Freitas","Instituto Federal Baiano Campus Teixeira de Freitas"]}
+]
